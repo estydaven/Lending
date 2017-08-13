@@ -24,17 +24,18 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row row-pic">            
-                <div class="col-xs-6 col-md-4">
+                <div class="img-img">
                     <img class="container__img" src="images/picture.png">
                 </div>
-                <div class="divide"><img class="line" src="images/line.png"></div>                
+                <div class="divide"><img class="line" src="images/line.png"></div>
             </div>
             <div class="row row-product">            
-                <div class="col-md-12 col-xs-12">  
+                <div class="col-md-12">  
                     <div class="products">
-                        <img class="img-responsive img-bear" src="images/new.png">
-                        <h1 class="title-pampers">ДЕТСКИЕ ПОДГУЗНИКИ</h1>
-                        
+                        <div class="products-title">
+                            <img class="img-responsive img-bear" src="images/new.png">
+                            <h1 class="title-pampers">ДЕТСКИЕ ПОДГУЗНИКИ</h1>
+                        </div>
                         <div class="product-list">
                             <div class="col-md-3">
                                 <img class="img-responsive" src="images/mini.png">
@@ -69,51 +70,62 @@
                 </div>    
             </div>
             <div class="row main">
-                <img class="img-responsive img-center" src="images/pampers.png">
-                <div class="prod one">
-                    <h3 class="title-about">Многоразовые липучки</h3>
-                    <p>гарантируют удобство в использовании - подгузник отлично держится</p>
-                </div>
-                <div class="prod two">
-                    <div class="prod-content">
-                        <img class="prod-pic img-responsive" src="images/material.png">
-                        <div class="prod-text">
-                            <h3 class="title-about">Мягкий материал</h3>                        
-                            <p>внутри и снаружи</p> 
-                        </div>    
-                    </div>     
-                </div>
-                <div class="prod three">
-                    <div class="prod-content">
-                        <img class="prod-pic  img-responsive" src="images/air.png">
-                        <div class="prod-text">
-                            <h3 class="title-about">Дышащий верхний слой</h3>
-                            <p>обеспечивает постоянный доступ воздуха, защищая кожу малыша от раздражения</p>
-                        </div>    
+                <img class="img-responsive" src="images/pampers2.png">
+                <!--<img class="img-responsive img-center" src="images/pampers.png">
+                <div class="productions-content">
+                    <div class="first-block">
+                        <div class="prod one">
+                            <h3 class="title-about">Многоразовые липучки</h3>
+                            <p>гарантируют удобство в использовании - подгузник отлично держится</p>
+                        </div>
+                        <div class="prod two">
+                            <div class="prod-content">
+                                <img class="prod-pic img-responsive" src="images/material.png">
+                                <div class="prod-text text-two">
+                                    <h3 class="title-about">Мягкий материал</h3> 
+                                    <p>внутри и снаружи</p> 
+                                </div>    
+                            </div>     
+                        </div>
+                        <div class="prod three">
+                            <div class="prod-content">
+                                <img class="prod-pic  img-responsive" src="images/air.png">
+                                <div class="prod-text">
+                                    <div class="text-three">
+                                        <h3 class="title-about">Дышащий верхний слой</h3>
+                                        <p>обеспечивает постоянный доступ воздуха, защищая кожу малыша от раздражения</p>
+                                    </div>    
+                                </div>    
+                            </div>    
+                        </div>  
+                    </div> 
+                    <div class="second-block">
+                        <div class="prod five">
+                            <h3 class="title-about">Эластичные боковинки</h3>
+                            <p>обеспечивают идеальное прилегание к телу, не стесняя движений малыша</p>
+                        </div>
+                        <div class="prod six">
+                            <div class="prod-content">
+                                <img class="prod-pic  img-responsive" src="images/water.png">
+                                <div class="prod-text">
+                                    <h3 class="title-about">Впитывающий слой</h3>
+                                    <p>с микрогранулами, которые превращают жидкость в гель, запирая влагу внутри</p>
+                                </div>    
+                            </div>    
+                        </div>
+                        <div class="prod seven">
+                            <div class="text-seven">
+                                <h3 class="title-about">Эластичные бортики</h3>
+                                <p>вокруг ножек исключают протекания</p>
+                            </div>    
+                        </div>
                     </div>    
-                </div>                
-                <div class="prod five">
-                    <h3 class="title-about">Эластичные боковинки</h3>
-                    <p>обеспечивают идеальное прилегание к телу, не стесняя движений малыша</p>
-                </div>
-                <div class="prod six">
-                    <div class="prod-content">
-                        <img class="prod-pic  img-responsive" src="images/water.png">
-                        <div class="prod-text">
-                            <h3 class="title-about">Впитывающий слой</h3>
-                            <p>с микрогранулами, которые превращают жидкость в гель, запирая влагу внутри</p>
-                        </div>    
-                    </div>    
-                </div>
-                <div class="prod seven">
-                    <h3 class="title-about">Эластичные бортики</h3>
-                    <p>вокруг ножек исключают протекания</p>
                 </div>
                 <div class="prod-bottom">
                     <div class="prod four">
-                        <div class="prod-content prod-cont-bot">
+                        <div class="prod-content">
                             <img class="prod-pic  img-responsive" src="images/elastic.png">
-                            <div class="prod-text">
+                            <div class="prod-text text-four">
                                 <h3 class="title-about">Эластичные</h3>
                                 <p>для большего комфорта</p>
                             </div>    
@@ -121,8 +133,10 @@
                     </div>
                     <div class="prod nine">
                         <div class="prod-content">
-                            <img class="prod-pic pic-two  img-responsive" src="images/no-gmo.png">
-                            <h3 class="title-about">Без отдушек</h3>  
+                            <img class="prod-pic pic-pic  img-responsive" src="images/no-gmo.png">
+                            <div class="prod-text text-five">
+                                <h3 class="title-about">Без отдушек</h3> 
+                            </div>    
                         </div>    
                     </div>
                     <div class="prod eight">
@@ -134,8 +148,8 @@
                             </div>    
                         </div>    
                     </div>
-                </div>  
-                
+                </div>-->  
+            </div>
                 <div class="row quote">
                     <img class="quote-pic" src="images/left.png">
                     <p class="quote-text">Ежедневный уход за младенцем - не рутина, а важные и неповторимые моменты близости. Мы позаботились о высоком качестве продукции, которой каждый день будет пользоваться кроха, нуждающийся в особом внимании.</p>
@@ -154,7 +168,7 @@
                         <div class="bottom-content">
                             <div class="bot-content">
                                 <img class="pic-two img-responsive" src="images/heart.png">
-                                <div class="prod-text">
+                                <div class="text-text">
                                     <h3 class="title-about">Против рутины и усталости</h3>  
                                     <p>Быстрое переодевание непоседы</p>
                                 </div>    
@@ -163,7 +177,7 @@
                         <div class="bottom-content">
                             <div class="bot-content">
                                 <img class="pic-two img-responsive" src="images/heart.png">
-                                <div class="prod-text">
+                                <div class="text-text">
                                     <h3 class="title-about">Эмоциональная связь</h3>  
                                     <p>Еще больше свободы движения</p>
                                 </div>    
@@ -172,7 +186,7 @@
                         <div class="bottom-content">
                             <div class="bot-content">
                                 <img class="pic-two img-responsive" src="images/heart.png">
-                                <div class="prod-text">
+                                <div class="text-text">
                                     <h3 class="title-about">Сухость и свобода движений</h3>  
                                     <p>Еще больше времени для приключений</p>
                                 </div>    
@@ -180,35 +194,28 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            
             <div id="footer" class="row">
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="contacts">
-                        <h3>Контакты</h3>
-                        <h4>Телефон:</h4>
+                        <h3 class="title-contacts">Контакты</h3>
+                        <h4 class="subtitle-contacts">Телефон:</h4>
                         <p>8-800-700-4-11</p>
-                        <p>на территории РФ звонок бесплатный</p>
-                        <h4>E-mail:</h4>
+                        <p class="color">на территории РФ звонок бесплатный</p>
+                        <h4 class="subtitle-contacts">E-mail:</h4>
                         <p>private.lable@lenta.com</p>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <h3>Напишите нам</h3>
-                    <p>Мы всегда готовы ответить на все ваши вопросы о продукции Little Times</p>
+                <div class="col-md-6">
+                    <h3 class="title-contacts">Напишите нам</h3>
+                    <p class="subtitle-contacts">Мы всегда готовы ответить на все ваши вопросы о продукции Little Times</p>
                     <form class="form" role="form">
-                        <div class="row">
-                          <div class="col-md-4">
-                            <input type="name" class="form-control" placeholder="Имя">
-                          </div>
-                          <div class="col-md-4">
+                        <div class="controls">
+                            <input type="name" class="form-control form-controls" placeholder="Имя">
                             <input type="email" class="form-control" placeholder="E-mail">
-                          </div>
-                        </div>
-                        <div class="row">
-                          <textarea class="col-xs-8" rows="3">
-                            <input type="text" class="form-control" placeholder="Сообщение">
-                          </textarea>
                         </div>    
+                        <textarea class="textarea" rows="3" placeholder="Сообщение"></textarea>
+                        <button type="submit" class="button-bot">Отправить</button>
                     </form>
                 </div>
             </div>
