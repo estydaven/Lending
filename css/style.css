@@ -1,5 +1,5 @@
 .container-fluid{
-    background: url('/images/bg.png');
+    background: url('../images/bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -7,7 +7,7 @@
 }
 
 .row-pic{
-    background: url('/images/bg-png.png');
+    background: url('../images/bg-png.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -25,7 +25,7 @@
 }
 
 .row-product{
-    background: url('/images/pattern.png');
+    background: url('../images/pattern.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -70,7 +70,7 @@
 }
 
 .about{
-    background: url('/images/pattern2.png');
+    background: url('../images/pattern2.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -218,7 +218,7 @@
 }
 
 .bottom{
-    background: url('/images/sky.png') no-repeat;
+    background: url('../images/sky.png') no-repeat;
     background-size: cover;
     background-position: 50%;
     min-height: 671px;
