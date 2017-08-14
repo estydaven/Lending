@@ -12,6 +12,8 @@
     <link href="css/style.css" rel="stylesheet">     
     <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" href="images/logo2.png" type="image/png">
+    <link rel="shortcut icon" href="images/logo2.png" type="image/png">
       
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,22 +42,66 @@
                             <div class="col-md-3">
                                 <img class="img-responsive" src="images/mini.png">
                                 <h2 class="subtitle">MINI(2)3 - 6 КГ</h2>
-                                <button type="button" class="btn btn-default">27 штук в упаковке</button>
+                                <button type="button" class="btn btn-default"><a class="link" href="#win8">27 штук в упаковке</a></button><a class="overlay" id="win8" href="#x"></a>
+                                    <div class="popup">
+                                        <form class="form" method="post" action="call.php">
+                                            <h1 class="popup__title popup__title_call"> Заказ товара</h1>
+                                            <div class="popup__form">
+                                                <h3 class="popup__descr">Оставьте свои контактные данные и мы перезвоним вам!</h3>
+                                                <input class="popup__name" type="text" name="name" required="required" placeholder="   Введите имя*">
+                                                <input class="popup__phone" type="text" name="phone" required="required" placeholder="   Введите телефон*">
+                                                <input class="popup__button" type="submit" name="sended" value="Отправить">
+                                            </div><a class="close" title="Закрыть" href="#close"></a>
+                                        </form>
+                                    </div>
                             </div>
                             <div class="col-md-3">
                                 <img class="img-responsive" src="images/midi.png">
                                 <h2 class="subtitle">MIDI(3)4 - 9 КГ</h2>
-                                <button type="button" class="btn btn-default">24 и 70 штук в упаковке</button>
+                                <button type="button" class="btn btn-default"><a class="link" href="#win8">24 и 70 штук в упаковке</a></button><a class="overlay" id="win8" href="#x"></a>
+                                <div class="popup">
+                                    <form class="form" method="post" action="call.php">
+                                        <h1 class="popup__title popup__title_call"> Заказ товара</h1>
+                                        <div class="popup__form">
+                                            <h3 class="popup__descr">Оставьте свои контактные данные и мы перезвоним вам!</h3>
+                                            <input class="popup__name" type="text" name="name" required="required" placeholder="   Введите имя*">
+                                            <input class="popup__phone" type="text" name="phone" required="required" placeholder="   Введите телефон*">
+                                            <input class="popup__button" type="submit" name="sended" value="Отправить">
+                                        </div><a class="close" title="Закрыть" href="#close"></a>
+                                    </form>        
+                                </div>
                             </div>
                             <div class="col-md-3">
                                 <img class="img-responsive" src="images/maxi.png">
                                 <h2 class="subtitle">MAXI(4)8 - 18 КГ</h2>
-                                <button type="button" class="btn btn-default">22 и 62 штуки в упаковке</button>
+                                <button type="button" class="btn btn-default"><a class="link" href="#win8">22 и 62 штуки в упаковке</a></button><a class="overlay" id="win8" href="#x"></a>
+                                <div class="popup">
+                                    <form class="form" method="post" action="call.php">
+                                        <h1 class="popup__title popup__title_call"> Заказ товара</h1>
+                                        <div class="popup__form">
+                                            <h3 class="popup__descr">Оставьте свои контактные данные и мы перезвоним вам!</h3>
+                                            <input class="popup__name" type="text" name="name" required="required" placeholder="   Введите имя*">
+                                            <input class="popup__phone" type="text" name="phone" required="required" placeholder="   Введите телефон*">
+                                            <input class="popup__button" type="submit" name="sended" value="Отправить">
+                                        </div><a class="close" title="Закрыть" href="#close"></a>
+                                    </form>        
+                                </div>
                             </div>
                             <div class="col-md-3">
                                 <img class="img-responsive" src="images/junior.png">
                                 <h2 class="subtitle">MINI(5)15 - 25 КГ</h2>
-                                <button type="button" class="btn btn-default">20 и 52 штуки в упаковке</button>
+                                <button type="button" class="btn btn-default"><a class="link" href="#win8">20 и 52 штуки в упаковке</a></button><a class="overlay" id="win8" href="#x"></a>
+                                <div class="popup">
+                                    <form class="form" method="post" action="call.php">
+                                        <h1 class="popup__title popup__title_call"> Заказ товара</h1>
+                                        <div class="popup__form">
+                                            <h3 class="popup__descr">Оставьте свои контактные данные и мы перезвоним вам!</h3>
+                                            <input class="popup__name" type="text" name="name" required="required" placeholder="   Введите имя*">
+                                            <input class="popup__phone" type="text" name="phone" required="required" placeholder="   Введите телефон*">
+                                            <input class="popup__button" type="submit" name="sended" value="Отправить">
+                                        </div><a class="close" title="Закрыть" href="#close"></a>
+                                    </form>        
+                                </div>
                             </div> 
                         </div>    
                     </div>    
@@ -69,11 +115,10 @@
                     <p class="paragraph">Little Times - это первые подгузники, которые созданы для того, чтобы сделать минуты, проведенные вместе с крохой, настоящими "моментами близости", которые в будущем помогут создать надежный фундамент крепкой эмоциональной связи между мамой и малышом.</p>
                 </div>    
             </div>
-            <div class="row main">
-                <img class="img-responsive" src="images/pampers2.png">
-                <!--<img class="img-responsive img-center" src="images/pampers.png">
-                <div class="productions-content">
-                    <div class="first-block">
+            <img class="img-responsive img-center" src="images/pampers2.png">
+            <div class="row main">                
+                <div class="products">
+                    <div class="section-first">
                         <div class="prod one">
                             <h3 class="title-about">Многоразовые липучки</h3>
                             <p>гарантируют удобство в использовании - подгузник отлично держится</p>
@@ -81,26 +126,34 @@
                         <div class="prod two">
                             <div class="prod-content">
                                 <img class="prod-pic img-responsive" src="images/material.png">
-                                <div class="prod-text text-two">
+                                <div class="prod-text">
                                     <h3 class="title-about">Мягкий материал</h3> 
                                     <p>внутри и снаружи</p> 
                                 </div>    
                             </div>     
                         </div>
-                        <div class="prod three">
+                    </div>
+                    <div class="section-second">
+                        <div class="prod nine">
                             <div class="prod-content">
-                                <img class="prod-pic  img-responsive" src="images/air.png">
-                                <div class="prod-text">
-                                    <div class="text-three">
-                                        <h3 class="title-about">Дышащий верхний слой</h3>
-                                        <p>обеспечивает постоянный доступ воздуха, защищая кожу малыша от раздражения</p>
-                                    </div>    
+                                <img class="prod-pic pic-pic  img-responsive" src="images/no-gmo.png">
+                                <div class="prod-text text-five">
+                                    <h3 class="title-about">Без отдушек</h3> 
                                 </div>    
                             </div>    
-                        </div>  
-                    </div> 
-                    <div class="second-block">
-                        <div class="prod five">
+                        </div>                        
+                        <div class="prod four">
+                            <div class="prod-content">
+                                <img class="prod-pic  img-responsive" src="images/elastic.png">
+                                <div class="prod-text text-four">
+                                    <h3 class="title-about">Эластичные</h3>
+                                    <p>для большего комфорта</p>
+                                </div>    
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="section-third">
+                         <div class="prod five">
                             <h3 class="title-about">Эластичные боковинки</h3>
                             <p>обеспечивают идеальное прилегание к телу, не стесняя движений малыша</p>
                         </div>
@@ -113,42 +166,38 @@
                                 </div>    
                             </div>    
                         </div>
+                    </div>
+                    <div class="section-fourth">
                         <div class="prod seven">
                             <div class="text-seven">
                                 <h3 class="title-about">Эластичные бортики</h3>
                                 <p>вокруг ножек исключают протекания</p>
                             </div>    
                         </div>
-                    </div>    
-                </div>
-                <div class="prod-bottom">
-                    <div class="prod four">
-                        <div class="prod-content">
-                            <img class="prod-pic  img-responsive" src="images/elastic.png">
-                            <div class="prod-text text-four">
-                                <h3 class="title-about">Эластичные</h3>
-                                <p>для большего комфорта</p>
+                        <div class="prod eight">
+                            <div class="prod-content">
+                                <img class="prod-pic  pic-three img-responsive" src="images/test.png">
+                                <div class="prod-text">
+                                    <h3 class="title-about">Протестировано дерматологически</h3>
+                                    <p>не вызывает раздражений</p>
+                                </div>    
                             </div>    
-                        </div>    
+                        </div>
                     </div>
-                    <div class="prod nine">
-                        <div class="prod-content">
-                            <img class="prod-pic pic-pic  img-responsive" src="images/no-gmo.png">
-                            <div class="prod-text text-five">
-                                <h3 class="title-about">Без отдушек</h3> 
+                    <div class="section-fifth">
+                        <div class="prod three">
+                            <div class="prod-content">
+                                <img class="prod-pic  img-responsive" src="images/air.png">
+                                <div class="prod-text">
+                                    <div class="text-three">
+                                        <h3 class="title-about">Дышащий верхний слой</h3>
+                                        <p>обеспечивает постоянный доступ воздуха, защищая кожу малыша от раздражения</p>
+                                    </div>    
+                                </div>    
                             </div>    
-                        </div>    
+                        </div>
                     </div>
-                    <div class="prod eight">
-                        <div class="prod-content">
-                            <img class="prod-pic  pic-three img-responsive" src="images/test.png">
-                            <div class="prod-text">
-                                <h3 class="title-about">Протестировано дерматологически</h3>
-                                <p>не вызывает раздражений</p>
-                            </div>    
-                        </div>    
-                    </div>
-                </div>-->  
+                </div>    
             </div>
                 <div class="row quote">
                     <img class="quote-pic" src="images/left.png">
@@ -165,7 +214,7 @@
                         <p class="par-bottom">Еще больше свободы движения для самых лучших моментов</p>                           
                     </div>
                     <div class="bottom-bottom">
-                        <div class="bottom-content">
+                        <div class="bottom-content bottom-flex">
                             <div class="bot-content">
                                 <img class="pic-two img-responsive" src="images/heart.png">
                                 <div class="text-text">
@@ -174,7 +223,7 @@
                                 </div>    
                             </div>    
                         </div>
-                        <div class="bottom-content">
+                        <div class="bottom-content bottom-flex">
                             <div class="bot-content">
                                 <img class="pic-two img-responsive" src="images/heart.png">
                                 <div class="text-text">
@@ -209,13 +258,13 @@
                 <div class="col-md-6">
                     <h3 class="title-contacts">Напишите нам</h3>
                     <p class="subtitle-contacts">Мы всегда готовы ответить на все ваши вопросы о продукции Little Times</p>
-                    <form class="form" role="form">
+                    <form class="form" method="post" action="question.php">
                         <div class="controls">
-                            <input type="name" class="form-control form-controls" placeholder="Имя">
-                            <input type="email" class="form-control" placeholder="E-mail">
+                            <input class="form-control form-controls" type="text" name="name" required="required" placeholder="Имя">
+                            <input class="form-control" type="text" name="email" required="required" placeholder="E-mail">
                         </div>    
-                        <textarea class="textarea" rows="3" placeholder="Сообщение"></textarea>
-                        <button type="submit" class="button-bot">Отправить</button>
+                        <input class="textarea" type="text" name="text" required="required" placeholder="Сообщение">
+                        <button type="submit" name="sended" class="button-bot">Отправить</button>
                     </form>
                 </div>
             </div>
@@ -225,6 +274,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
+    <script src="js/salvattore.min.js"></script>
    <script>
        $(function () {
           $('[data-toggle="tooltip"]').tooltip();
@@ -233,3 +283,5 @@
    </script>
   </body>
 </html>
+
+
